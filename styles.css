@@ -1,0 +1,37 @@
+* {
+    box-sizing: content-box;
+    
+}
+
+body {
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.nav-lst {
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0, auto;
+}
+.nav-lst {
+    border: 1px solid black;
+    margin: 0, auto;
+    padding: 0;
+}
+
+.nav-part, .nav-about {
+    border: 1px solid orange;
+}
+
+.nav-part:hover, .nav-about:hover {
+    background-color: gray;
+
+}
