@@ -9,26 +9,31 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    padding-right: 75px;
+    justify-content: space-between; 
+    align-items: flex-end;
 }
 
 .nav-lst {
     list-style: none;
-    width: 40%;
+    height: 35px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     margin: 0, auto;
 }
 .nav-lst {
-    border: 1px solid black;
     margin: 0, auto;
     padding: 0;
 }
 
 .nav-part, .nav-about {
-    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 150px;
+    
 }
 
 .nav-part:hover, .nav-about:hover {
