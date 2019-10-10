@@ -4,11 +4,11 @@
 
 * {
     box-sizing: content-box;
-    
+    color: white;
 }
 
 body {
-    
+    background-color: black;
 }
 
 
@@ -53,7 +53,7 @@ nav {
 }
 
 .nav-part:hover, .nav-about:hover {
-    background-color: gray;
+    background-color: #C2EDF2;
 
 }
 
@@ -71,6 +71,8 @@ nav {
 }
 
 .big-intro {
+    background-image: url("https://c.wallhere.com/photos/63/bc/2048x1365_px_Code_coding_color_Codes_computer_Computer_Screen_CSS_HTML-1334119.jpg!d");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,12 +89,12 @@ nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgba(128, 128, 128, 0.8);
+    background: linear-gradient(#C2EDF2, #18818C);
     height: 150px;
     width: 400px;
     margin: 10px;
     list-style: none;
-
+    
 }
 
 .when{
@@ -130,14 +132,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
 .cposc-intro{
-    color: gray;
+    padding: 20px;
+    color: black;
     max-width: 1000px;
     margin: 0 auto;
+    background: linear-gradient(#C2EDF2, #18818C);
 }
 
 .description{
@@ -145,6 +150,10 @@ nav {
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid rgb(194, 237, 242);
+    border-radius: 7px;
 }
 
 .why-cposc, .why-lanc, .what-expect{
@@ -153,25 +162,28 @@ nav {
     flex-direction: column;
     width: 25%;
     margin: 15px;
+    box-shadow: 1px 1px 7px -1px rgb(194, 237, 242);
+    padding: 10px;
 }
+   
+
 
 .connect-logo {
     width: 50px;
 }
 
 .connect {
-    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-right: 10px;
     padding-left: 10px;
-    background-color: rgb(51, 51, 230);
+    background: linear-gradient(#C2EDF2, #18818C);
     list-style: none;
     max-width: 1000px;
     justify-content: flex-start;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .connect-logo, .main-connect-links{
@@ -197,6 +209,7 @@ nav {
 }
 
 .connect-h{
+    color: black;
     font-size: 40px;
 }
 
@@ -205,7 +218,6 @@ nav {
     display: flex;
     max-width: 1000px;
     flex-direction: row;
-    background-color: gold;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -213,30 +225,80 @@ nav {
 .ready{
     display: flex;
     align-self: center;
-    
+    background: linear-gradient(#C2EDF2, #18818C);
     width: 25%;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ready:hover{
+    background: linear-gradient(#18818C, #C2EDF2);
 }
 
 .first-headings{
     align-items: flex-start;
+    font-size: 40px;
 }
 
-.button{
-    display: flex;
-    align-items: flex-end;
-    width: 25%;
+.sonohead{
+    font-size: 20px;
 }
 
 
 /*sponsor images and headers*/
 .sponsor-header{
-    color: lightblue;
-    border-bottom: solid 2px lightblue;
+    color: #18818C;
+    border-bottom: solid 2px #18818C;
+}
+
+.the-sponsors{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(#C2EDF2, #18818C);
+    border-radius: 7px;
+}
+
+.sponsorlogos{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.group-sponsors{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsorlogos-group{
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
 }
 
 
+.sponsorlogos-group2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.sponsorlogos-group2:nth-child(1){
+
+}
 /* the footer*/
 
-.connect-footer, footer{
+
+
+.fake-footer, footer{
+    display: flex;
+    max-width: 1000px;
     background-color: lightgray;
+    margin: 0 auto;
 }
