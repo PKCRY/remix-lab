@@ -1,3 +1,7 @@
+
+
+/* remember to add the background image*/
+
 * {
     box-sizing: content-box;
     
@@ -6,6 +10,17 @@
 body {
     
 }
+
+
+
+img{
+    width: 300px;
+}
+.nav-img {
+    width: 238px;
+    height: 60px;
+}
+
 
 nav {
     display: flex;
@@ -32,11 +47,196 @@ nav {
     align-items: center;
     justify-content: center;
     height: 35px;
-    width: 150px;
+    width: auto;
+    padding: 10px;
     
 }
 
 .nav-part:hover, .nav-about:hover {
     background-color: gray;
 
+}
+
+/* centering the intro on the image */
+
+
+.CPOSC{
+    font-size: 70px;
+    text-align: center;
+}
+
+.small-intro {
+    text-align: center;
+    font-size: 60px;
+}
+
+.big-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxy-boys{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    
+}
+.when, .where{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 150px;
+    width: 400px;
+    margin: 10px;
+    list-style: none;
+
+}
+
+.when{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.li-sept {
+    
+    font-size: 40px;
+}
+
+.where{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.where-li, .lanc{
+    font-size: 20px;
+}
+
+.destination{
+    font-size: 40px;
+}
+
+/* for the text starting underneath the image in the intro*/
+
+.cposc-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.cposc-intro{
+    color: gray;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.why-cposc, .why-lanc, .what-expect{
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 15px;
+}
+
+.connect-logo {
+    width: 50px;
+}
+
+.connect {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(51, 51, 230);
+    list-style: none;
+    max-width: 1000px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.connect-logo, .main-connect-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.main-connect-links{
+    width: 25%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 350px;
+    
+}
+
+.connect-logo{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.connect-h{
+    font-size: 40px;
+}
+
+/* start of the sponsors stuff */
+.sponsortext-button {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: row;
+    background-color: gold;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ready{
+    display: flex;
+    align-self: center;
+    
+    width: 25%;
+}
+
+.first-headings{
+    align-items: flex-start;
+}
+
+.button{
+    display: flex;
+    align-items: flex-end;
+    width: 25%;
+}
+
+
+/*sponsor images and headers*/
+.sponsor-header{
+    color: lightblue;
+    border-bottom: solid 2px lightblue;
+}
+
+
+/* the footer*/
+
+.connect-footer, footer{
+    background-color: lightgray;
 }
