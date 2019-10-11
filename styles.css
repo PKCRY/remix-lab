@@ -14,7 +14,7 @@ body {
 
 
 img{
-    width: 300px;
+    width: 100px;
 }
 .nav-img {
     width: 238px;
@@ -61,6 +61,7 @@ nav {
 
 
 .CPOSC{
+    color: #C2EDF2;
     font-size: 70px;
     text-align: center;
 }
@@ -68,6 +69,7 @@ nav {
 .small-intro {
     text-align: center;
     font-size: 60px;
+    background: rgba(1, 1, 1, .7)
 }
 
 .big-intro {
@@ -184,7 +186,9 @@ nav {
     justify-content: flex-start;
     margin: 0 auto;
     border-radius: 5px; 
+    padding-bottom: 10px;
 }
+
 
 .connect-logo, .main-connect-links{
     display: flex;
@@ -213,6 +217,11 @@ nav {
     font-size: 40px;
 }
 
+.transparent{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
 /* start of the sponsors stuff */
 .sponsortext-button {
     display: flex;
@@ -231,6 +240,7 @@ nav {
     margin: 20px;
     text-decoration: none;
     color: black;
+    border-radius: 4px;
 }
 
 .ready:hover{
@@ -254,51 +264,124 @@ nav {
 }
 
 .the-sponsors{
+    background-color: black;
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    background: linear-gradient(#C2EDF2, #18818C);
-    border-radius: 7px;
+    align-items: space-between;
 }
 
-.sponsorlogos{
+.diamond, .plat, .gold, .silver, .bronze, .host, .after-party {
     display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.group-sponsors{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sponsorlogos-group{
-    flex-wrap: wrap;
-    width: 25%;
-    padding: 20px;
-    margin: 0 auto;
-    padding-left: 50px;
+    flex-direction: column;
+    align-items: space-around;
+    width: 20%;
+    padding: 10px;
+    border: 2px solid #18818C;
+    border-radius: 4px;
 }
 
 
-.sponsorlogos-group2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    padding: 20px;
-    margin: 0 auto;
-    padding-left: 50px;
+.diamond-sponsorlogos{
+    padding-top: 10px;
+    
+}
+
+.diamond{
+    background-color: lightskyblue;
+}
+.plat{
+    background-color: #e5e4e2
+}
+
+.gold{
+background-color: gold;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.bronze{
+    background-color: #b87333
+}
+
+.host{
+    background-color: #C2EDF2
+}
+
+.after-party {
+    background-color: #C2EDF2;
+}
+.gold-sponsorlogos-group{
+    padding-top: 15px;
+}
+
+.applied-sponsorlogos{
+    padding-top: 17px;
 }
 
 .sponsorlogos-group2:nth-child(1){
-
+    padding-bottom: 20px;
 }
 /* the footer*/
+
 
 
 
 .fake-footer, footer{
     display: flex;
     max-width: 1000px;
-    background-color: lightgray;
+    background-color: black;
     margin: 0 auto;
+
+}
+
+.code{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 40%;
+    
+}
+
+.footer-links{
+    flex-wrap: wrap;
+    background: white;
+    border: 4px solid white;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.connect-footer{
+    width: 40%;
+    padding: 25px;
+}
+
+.connect-h{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.hashtag{
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
+}
+
+.fake-footer{
+    max-width: 1000px;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.code-conduct{
+    padding: 60px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
